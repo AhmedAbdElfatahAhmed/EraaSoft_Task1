@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Damion';
+    src: url('../fonts/Damion/Damion.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Damion/Damion.eot?#iefiDamion') format('embedded-opentype'), /* IE6 - IE8  */
+        url('../fonts/Damion/Damion.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Damion/Damion.woff') format('woff'), /* pretty Modern Browsers */
+        url('../fonts/Damion/Damion.ttf') format('truetype'), /* Safari, Android, ios */
+        url('../fonts/Damion/Damion.svg#Damion') format('svg'); /* Legacy ios */
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans_Regular/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans_Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans_Regular/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans_Regular/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans_Regular/OpenSans-Regular.ttf') format('truetype'),
+        url('../fonts/OpenSans_Regular/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+}
+
+
+
+h1
+{
+    font-family: 'Damion', cursive , sans-serif;
+}
+h2
+{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.main-header .navbar
+{
+    background-color: black;
+}
+
+
+.navbar-toggler-icon
+{
+  background-color: #C79C60;
+}
+.main-header .container .navbar-brand span
+{
+  font-family: 'Damion', cursive , sans-serif;
+  font-size: 30px;
+  color: #C79C60;
+  margin-left: 5px;
+}
+.main-header .container  img
+{
+    position: relative;
+    bottom:9px;
+}
+
+.main-header .container .nav-link
+{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 25px;
+    font-size:14px ;
+    transition:color 0.3s ;
+    -webkit-transition:color 0.3s ;
+    -moz-transition:color 0.3s ;
+    -ms-transition:color 0.3s ;
+    -o-transition:color 0.3s ;
+}
+
+
+.main-header .container .nav-link:hover
+{
+    color: #C79C60;
+}
+
+.main-header .container .nav-link.active
+{
+  background-image: url("../assets/img/logo.png"),
+                    url("../assets/img/nav-underline.png");
+  background-repeat: no-repeat ;
+  background-size: 20px, 74px 17px;
+  background-position: 0% 35%, 30% 93%;
+  color: #C79C60;
+}
+
+
+/* start menu styling */
+.menu
+{
+background-color: #e4e4e4;
+padding: 40px;
+}
+.menu .menu-heading
+{
+  font-family: 'Damion', cursive , sans-serif;
+  color: #C79C60;
+  margin-bottom: 20px;
+}
+
+.menu h2 , .menu p ,.menu a
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.menu p 
+{
+ margin-bottom: 35px;
+ font-size: 15px;
+}
+.menu .read-more
+{
+    border: none;
+    background-image: url("../assets/img/tm-brown-button.png");
+    background-repeat: no-repeat;
+    background-position: 45px;
+    padding: 20px 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(199, 156, 96);
+    text-align: center;
+    position: relative;
+    left: -45px;
+    
+    
+}
+
+.menu .Image img
+{
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ border: 8px solid  #fff;
+ margin-left: 30px;
+}
+
+
+.menu .Our-Menus
+{
+   padding-top: 90px;
+   position: relative;
+}
+.menu .Our-Menus h2 
+{
+    font-family: 'Damion', cursive , sans-serif;
+    color: #C79C60;
+}
+
+.menu .Our-Menus h2 img
+{
+  position: relative;
+  bottom: 15px;
+  right: 5px;
+}
+.menu .Our-Menus span
+{
+    width: 75%;
+    height:1px;
+    background-color:#C79C60;
+    float: right;
+    position: relative;
+    bottom: 35px;
+}
+
+.menu .Our-Menus ul
+{
+    position: absolute;
+    left: 40px;
+    z-index: 2;
+}
+
+
+.menu .Our-Menus ul li
+{
+    list-style: none;
+    color: #7c6a51;
+    line-height: 33px;
+    text-align: center;
+}
+
+
+.menu .Our-Menus ul li a
+{
+    text-decoration: none;
+    color: #7c6a51;
+}
+
+
+.menu .Our-Menus ul li a:hover
+{
+    color: #C79C60;
+}
+
+
+
+
+
+
+/* End menu styling */
